@@ -7,6 +7,8 @@
 /* Global Styles */
 
 @import url(http://db.onlinewebfonts.com/c/5a7ccd00e07214de13454006306b304b?family=KG+Begin+Again);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 html,
 body {
@@ -31,7 +33,9 @@ body {
     font-weight: 700;
     color: #FA8072;
     text-shadow: 4px 4px #ffffff;
-    font-family: "KG Begin Again";
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Poiret One', cursive;
+    /*font-family: "KG Begin Again";*/
 }
 
 .text-vertical-center h3 {
@@ -42,6 +46,7 @@ body {
     margin-left: 40%;
     margin-right: 40%;
     border-radius: 15px;
+    
 }
 
 /* Custom Button Styles */
