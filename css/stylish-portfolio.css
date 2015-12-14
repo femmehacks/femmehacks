@@ -6,6 +6,8 @@
 
 /* Global Styles */
 
+@import url(http://db.onlinewebfonts.com/c/5a7ccd00e07214de13454006306b304b?family=KG+Begin+Again);
+
 html,
 body {
     width: 100%;
@@ -29,6 +31,7 @@ body {
     font-weight: 700;
     color: #FA8072;
     text-shadow: 4px 4px #ffffff;
+    font-family: "KG Begin Again";
 }
 
 .text-vertical-center h3 {
