@@ -186,6 +186,15 @@ hr.small {
     padding: 50px 0;
 }
 
+.services h2 {
+    font-size: 3em;
+}
+
+.services td {
+    font-size: 1.3em;
+    padding-left: 10%;
+}
+
 .service-item {
     margin-bottom: 30px;
 }
