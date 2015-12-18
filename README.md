@@ -20,9 +20,9 @@ merge conflict, type: :wq
 
 To Do:
 	[Anvita] make PDF
-	[Amelia] top nav bar: About, Schedule, Gallery, FAQ, Sponsors, Register, Contact
+	----DONE [Amelia] top nav bar: About, Schedule, Gallery, FAQ, Sponsors, Register, Contact
 	----DONE [Andrea] white space under header image: date, location, description
-	[Andrea] "Our Services" --> Tentative Schedule
+	----DONE [Andrea] "Our Services" --> Tentative Schedule
 	[Amelia] FAQ over images with shadow boxes: http://femmehacks.weebly.com/faq.html
 	----DONE [Andrea] "Our Work" --> Gallery of photos from last year
 	[Anvita] "buttons below" --> Register
