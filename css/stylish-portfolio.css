@@ -181,6 +181,12 @@ hr.small {
     padding-top: 7%;
     padding-bottom: 7%;
     background-color: #FA8072;
+
+}
+.schedule td{
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .schedule h2 {
@@ -264,6 +270,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #FA8072;
 }
 
 .call-to-action .btn {
