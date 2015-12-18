@@ -25,10 +25,8 @@ To Do:
 	[Amelia] when PDF is made, update Sponsor "here" link to go to pdf
 	[Amelia] update contact us web to go to WiCS page
 
-	as we get sponsors, add logo to sponsors tab (see gotechnica.org)
+	[All] as we get sponsors, add logo to sponsors tab (see gotechnica.org)
 	
-	
-	----DONE [Andrea] "Our Work" --> Gallery of photos from last year
-	[Anvita] "buttons below" --> Register
+	[Andrea] "buttons below" --> Register
 	 
 	
