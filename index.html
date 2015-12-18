@@ -28,6 +28,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,9 +42,8 @@
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
+    <nav id="topnav-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
                 <a href="#top">FemmeHacks</a>
             </li>
@@ -54,7 +54,7 @@
                 <a href="#about">ABOUT</a>
             </li>
             <li>
-                <a href="#services">SCHEDULE</a>
+                <a href="#schedule">SCHEDULE</a>
             </li>
             <li>
                 <a href="#portfolio">PHOTOS</a>
@@ -90,9 +90,9 @@
         <!-- /.container -->
     </section>
 
-    <!-- Services -->
+    <!-- Schedule -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="schedule" class="schedule bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -264,13 +264,13 @@
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+        $("#topnav-wrapper").toggleClass("active");
     });
 
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+        $("#topnav-wrapper").toggleClass("active");
     });
 
     // Scrolls to the selected menu item on the page

@@ -87,7 +87,46 @@ hr.small {
 
 /* Side Menu */
 
-#sidebar-wrapper {
+#topnav-wrapper {
+    background-color: rgba(250, 128, 114, 1);
+    background-size: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#topnav-wrapper ul {
+    display:table;
+    width: 100%;
+    margin:0 0;
+    -webkit-padding-start:0px; /* reset chrome default */
+}
+#topnav-wrapper ul li {
+    display: table-cell;
+    height:30px;
+    font-size: 1em;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+#topnav-wrapper ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#topnav-wrapper ul li a:active {
+    color: #33CCCC;
+}
+
+#topnav-wrapper ul li a:hover {
+    color: #000;
+}
+
+/*#topnav-wrapper {
     z-index: 1000;
     position: fixed;
     right: 0;
@@ -156,7 +195,7 @@ hr.small {
     right: 0;
 }
 
-#sidebar-wrapper.active {
+#topnav-wrapper.active {
     right: 250px;
     width: 250px;
     -webkit-transition: all 0.4s ease 0s;
@@ -168,7 +207,7 @@ hr.small {
 
 .toggle {
     margin: 5px 5px 0 0;
-}
+}*/
 
 /* Header */
 
@@ -190,17 +229,18 @@ hr.small {
     padding: 50px 0;
 }
 
-/* Services */
+/* schedule */
 
-.services {
+.schedule {
     padding: 50px 0;
+    background-color: #FA8072;
 }
 
-.services h2 {
+.schedule h2 {
     font-size: 3em;
 }
 
-.services td {
+.schedule td {
     font-size: 1.3em;
     padding-left: 10%;
 }
