@@ -50,6 +50,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -253,6 +254,10 @@ hr.small {
 .faq {
     padding-top: 7%;
     padding-bottom: 7%;
+}
+
+.faq th{
+    border: 0px solid;
 }
 
 .callout {
