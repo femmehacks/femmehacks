@@ -183,20 +183,18 @@ hr.small {
     background-color: #FA8072;
 
 }
+.schedule table {
+    width: 40%;
+    padding-left: 10%;
+    margin-right: 10%;
+}
+
 .schedule td{
-    border-color: #000000;
-    border-width: 1px;
-    border-style: solid;
+    padding-left: 3%;
 }
 
 .schedule h2 {
     font-size: 3em;
-}
-
-
-.schedule td {
-    font-size: 1em;
-    padding-left: 10%;
 }
 
 .service-item {
