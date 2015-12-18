@@ -19,13 +19,16 @@ merge conflict, type: :wq
 
 
 To Do:
+	
+
 	[Anvita] make PDF
-	----DONE [Amelia] top nav bar: About, Schedule, Gallery, FAQ, Sponsors, Register, Contact
-	----DONE [Andrea] white space under header image: date, location, description
-	----DONE [Andrea] "Our Services" --> Tentative Schedule
-	[Amelia] FAQ over images with shadow boxes: http://femmehacks.weebly.com/faq.html
+	[Amelia] when PDF is made, update Sponsor "here" link to go to pdf
+	[Amelia] update contact us web to go to WiCS page
+
+	as we get sponsors, add logo to sponsors tab (see gotechnica.org)
+	
+	
 	----DONE [Andrea] "Our Work" --> Gallery of photos from last year
 	[Anvita] "buttons below" --> Register
-	[Anvita] "Sponsors" 
-	[Amelia] "Contact us"
-	[Amelia] footer
+	 
+	
