@@ -277,9 +277,25 @@ hr.small {
     margin: 10px;
 }
 
+.call-to-action .img{
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: .375rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
 /* Contact */
 .contact i {
     color: #FA8072;
+}
+.contact h2{
+    padding-top: 10%;
 }
 
 
