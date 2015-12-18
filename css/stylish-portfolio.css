@@ -95,6 +95,7 @@ hr.small {
     top: 0;
     width: 100%;
     z-index: 1000;
+    height: 7%;
 }
 
 #topnav-wrapper ul {
@@ -103,11 +104,11 @@ hr.small {
     margin:0 0;
     -webkit-padding-start:0px; /* reset chrome default */
 }
+
 #topnav-wrapper ul li {
     display: table-cell;
-    height:30px;
-    font-size: 1em;
-    padding: 10px 10px;
+    font-size: 1.5em;
+    padding: 20px;
     text-align: center;
     color: white;
 }
@@ -116,10 +117,6 @@ hr.small {
     text-decoration: none;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-#topnav-wrapper ul li a:active {
-    color: #33CCCC;
 }
 
 #topnav-wrapper ul li a:hover {
@@ -226,13 +223,16 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    /*padding: 50px 0;*/
 }
 
 /* schedule */
 
 .schedule {
-    padding: 50px 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
     background-color: #FA8072;
 }
 
@@ -250,6 +250,10 @@ hr.small {
 }
 
 /* Callout */
+.faq {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
 
 .callout {
     display: table;
@@ -266,7 +270,8 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .portfolio-item {
@@ -290,6 +295,7 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
+
 
 /* Map */
 
