@@ -15,9 +15,7 @@ then you want to name it:
 then you want to push it to main, remote directory:
 	git push
 
-merge conflict, type: :wq
-
-
+merge conflict, type: :wq 
 
 To Do:
 	
