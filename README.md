@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Start Bootstrap - Stylish Portfolio
 =========
 
@@ -21,7 +22,6 @@ merge conflict, type: :wq
 To Do:
 	
 
-	[Anvita] make PDF
 	[Amelia] when PDF is made, update Sponsor "here" link to go to pdf
 	[Amelia] update contact us web to go to WiCS page
 
@@ -30,3 +30,4 @@ To Do:
 	[Andrea] "buttons below" --> Register
 	 
 	
+
