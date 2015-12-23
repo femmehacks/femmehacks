@@ -42,22 +42,23 @@ body {
     font-family: 'Cookie', cursive;
 }
 
-/*
-.text-vertical-center h3 {
-    background-color:rgba(0, 0, 0, 0.5);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    color: #fff;
-    font-size: 1.4em;
-    text-shadow: 1px 1px #FA8072;
-    margin-left: 28%;
-    margin-right: 28%;
-    border-radius: 8px;
-    font-family: 'Josefin Sans', sans-serif;
+@media only screen and (max-width: 568px) {
+    .header {
+        max-height: 400px;
+    }
+    .text-vertical-center h1 {
+        font-size: 3em;
+        margin-top: 15%;
+    }
+    .text-vertical-center h3 {
+        font-size: 1em;
+    }
+    .register {
+        margin-top: -18%;
+        padding-top: 0;
+    }
 }
 
-*/
 .text-vertical-center h3 {
     background-color:rgba(0, 0, 0, 0.2);
     padding-top: 5px;
@@ -65,7 +66,6 @@ body {
     margin-top: 10px;
     color: #FFFFFF;
     font-size: 1.4em;
-    /*text-shadow: 1px 1px #FA8072;*/
     margin-left: 28%;
     margin-right: 28%;
     border-radius: 8px;
@@ -136,39 +136,19 @@ hr.small {
 
 /* Menu Bar */
 
-#topnav-wrapper {
+.navbar {
     background-color: rgba(250, 128, 114, 1);
-    background-size: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
     width: 100%;
-    z-index: 1000;
-    height: 7%;
+    padding-right: 3%;
 }
 
-#topnav-wrapper ul {
-    display:table;
-    width: 100%;
-    margin:0 0;
-    -webkit-padding-start:0px; /* reset chrome default */
-}
-
-#topnav-wrapper ul li {
-    display: table-cell;
-    padding: 8px;
-    text-align: center;
-    color: white;
-}
-
-#topnav-wrapper ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3em;
 }
 
-#topnav-wrapper ul li a:hover {
+.navbar ul li a:hover {
     color: #24248f;
 }
 
@@ -198,25 +178,33 @@ hr.small {
 .schedule {
     padding-top: 7%;
     padding-bottom: 7%;
+    padding-right: 0;
+    padding-left: 0;
     background-color: #FA8072;
-
-}
-.schedule table {
-    width: 40%;
-    padding-left: 10%;
-    margin-right: 10%;
+    width: 100%;
 }
 
-.schedule td{
-    padding-left: 3%;
+.schedule p {
+    text-align: left;
 }
 
 .schedule h2 {
     font-size: 3em;
 }
 
+.schedule h4 {
+    text-align: center;
+}
+
 .service-item {
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 568px) {
+    .schedule {
+        width: 100%;
+    }
+    
 }
 
 /* Sponsors */
@@ -239,16 +227,16 @@ hr.small {
     text-shadow: 1.5px 1.5px #ffffff
 }
 
-.faq table {
-    margin-bottom: 40px;
+.faq h2 {
+    font-size: 1.3em;
 }
 
-.faq td {
-    word-wrap: break-word;
-    max-width: 33%;
-    padding-left: 4%;
-    padding-right: 4%;
+.faq .row {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
 }
+
 
 .callout {
     display: table;
@@ -291,17 +279,17 @@ hr.small {
     background-color: #FA8072;
 }
 
+@media only screen and (max-width: 568px) {
+    .caption {
+        font-size: .9em;
+    } 
+}
 
 .team btn {
     margin: 10px;
 }
 
-/*
-.team img {
-    max-height: 200px;
-    max-width: 200px;
-}
-*/
+/* Photos */
 
 .photo-grid {
     margin: 1em auto;

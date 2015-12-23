@@ -43,31 +43,42 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="topnav-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="#top" style = "font-family: 'Cookie'; font-size: 1.6em">FemmeHacks</a>
-            </li>
-            <li>
-                <a href="#about">about</a>
-            </li>
-            <li>
-                <a href="#schedule">schedule</a>
-            </li>
-            <li>
-                <a href="#sponsors">sponsors</a>
-            </li>
-             <li>
-                <a href="#faq">faq</a>
-            </li>
-            <li>
-                <a href="#portfolio">photos</a>
-            </li>
-            <li>
-                <a href="#contact">contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <!-- <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand topnav" href="#">FemmeHacks</a>
+        </div>
+
+    <!-- <nav id="topnav-wrapper"> -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#schedule">schedule</a>
+                </li>
+                <li>
+                    <a href="#sponsors">sponsors</a>
+                </li>
+                 <li>
+                    <a href="#faq">faq</a>
+                </li>
+                <li>
+                    <a href="#portfolio">photos</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Header -->
@@ -105,97 +116,158 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>schedule</h2>
-                    
+                    <h2>schedule</h2>                    
                     <hr class="small">
                     <div class="row">
-                        <table style= "width:100%">
-                            <tr valign = "top">
-                                <td>
-                            <table style= "width:100%">
-                                <tr> 
-                                    <td></td>
-                                    <td valign = "top" align = "left"><i>Friday</i></td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">5 - 5:15 pm</td>
-                                    <td align = "left">Check in/registration</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">5:15 - 6pm</td>
-                                    <td align = "left">Dinner</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">6 - 7pm</td>
-                                    <td align = "left">Team matching</td>
-                                </tr>
-                                <tr>
-                                    <td valign = "top" align = "right">7 - 8:30pm</td>
-                                    <td align = "left">Hackathon beginner set-up workshops</td>
-                                </tr>
-                                <tr>
-                                    <td valign = "top" align = "right">9pm</td>
-                                    <td align = "left">Get excited 4 tomorrow!!</td>
-                                </tr>
-                            </table>
-                        </td>
-                        <td>
-                            <table style= "width:100%">
-                                <tr> 
-                                    <td></td>
-                                    <td valign = "top" align = "left"><i>Saturday</i></td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">8 - 8:30am</td>
-                                    <td align = "left">Check in/registration</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">8:30 - 9am</td>
-                                    <td align = "left">Opening Ceremonies</td>
-                                </tr> 
-                                <tr>
-                                    <td align = "right">9 - 12am</td>
-                                    <td align = "left">Begin building!</td>
-                                </tr> 
-                                <tr>
-                                    <td align = "right">12 - 1pm</td>
-                                    <td align = "left">Lunch</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">3:30-4pm</td>
-                                    <td align = "left">Snacks</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">6 - 7pm</td>
-                                    <td align = "left">Dinner</td>
-                                </tr>
-                                <tr>
-                                    <td align = "right">10:30pm</td>
-                                <td align = "left">Project submissions due on DevPost</td>
-                                </tr>
-                                <tr>
-                                   <td> </td>
-                                    <td align = "left">Judging and closing ceremonies/prizes</td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                        </table>
+                        <div class="col-lg-6 col-sm-6 col-xs-6">
+                            <h3>Friday</h3>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-xs-6">
+                            <h3>Saturday</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                            <p>5 - 5:15 pm</p>
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Check in & registration</p>
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                            <p>8 - 8:30 am</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Check in & registration</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                            <p>5:15 - 6 pm</p>
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Dinner</p>
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>8:30 - 9am</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Opening Ceremonies</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                            <p>6 - 7 pm</p>
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Team matching</p>
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>9am - 12 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Begin building!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                            <p>8:30 - 9 pm</p>
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Hackathon beginner set-up workshops</p>
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>12 - 1 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Lunch</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                            <p>9 pm</p>
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Get excited for tomorrow!</p>
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>3:30 - 4 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Snax</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>6 - 7 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Dinner</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>10:30 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Project submissions due on DevPost</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Friday Time -->
+                        <div class="col-lg-2 col-md-2 col-xs-2">
+                        </div>
+                        <!-- Friday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                        </div>
+                        <!-- Saturday time -->
+                        <div class="col-lg-2 col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-2">
+                             <p>10:30 pm</p>
+                        </div>
+                        <!-- Saturday Event -->
+                        <div class="col-lg-3 col-md-3 col-xs-3">
+                            <p>Judging and closing ceremonies/prizes</p>
+                        </div>
+                    </div>
 
-                        <!-- <table style= "width:100%">
-                            
-                              
-                                
-                                <
-                                <td></td>
-                                <td></td>
-                                <td> </td>
-                                <td align = "left">Judging and closing ceremonies/prizes</td>
-                            </tr>
-                        </table> -->
-                        <h1></h1>
-                        <h11>(subject to change)</h11>
-                        
+                    <div class = "center-row">
+                        <h4>(subject to change)</h4>
+                    </div>
                         
                     </div>
                     <!-- /.row (nested) -->
@@ -230,75 +302,67 @@
             <div class = "space"> </div>
             <div class="text-vertical-center">
                 <h1>FAQ</h1>
-                    <table style=" table-layout: fixed; width: 100%">
-                        <tr>
-                            <td style="word-wrap: break-word">
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                Who can come? <br>
-                                Any college or high student student over
-                                <br>
-                                18 is welcome. No experience is required!
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                
-                                Where is it? <br>
-                                John M. Huntsman Hall <br>
-                                @ the University of Pennsylvania
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                When is it? <br>
-                                The actual hackathon will take <br>
-                                place on Saturday, February 20th, <br> 
-                                but there will be team matching and <br>hackathon-startup sessions on Friday.
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                What should I bring? <br>
-                                A computer, charger, and enthusiasm :D
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                Is it okay if I'm not an ~experienced~  <br>hacker? <br>
-                                Yes. There will be tons of mentors, <br>workshops, and other fellow attendees <br> to help you out!
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                How many people can I take in a team? <br>
-                                Max of 4 people, please.
-                                </div>
-                            </td>
-                        </tr>
-                        
-                         <tr>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                How much does it cost? <br>
-                                Nothing! Food, drinks, and $w@g <br> provided.
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                I don't have a team. Can I still come? <br>
-                                Absolutely! You will get the chance to <br>make one on Friday night.
-                                </div>
-                            </td>
-                            <td>
-                                <div class="btn btn-dark2 btn-lg btn-block">
-                                Ok, I'm almost convinced. <br>
-                                Come make amazing memories + friends, <br>network with awesome companies, and <br> develop awesome projects to showcase <br>your skillz.
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2> Who can come? </h2>
+                        <p>Any college or high student student over 18 is welcome. No experience is required!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2>Where is it? </h2>
+                            <p>John M. Huntsman Hall <br>
+                            @ the University of Pennsylvania</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2> When is it? </h2>
+                        <p>The actual hackathon will take place on Saturday, February 20th, but there will be team matching and hackathon-startup sessions on Friday.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2> What should I bring? </h2>
+                        <p>A computer, charger, and enthusiasm :D</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2>Is it okay if I'm not an ~experienced~ hacker? </h2>
+                        <p>Yes. There will be tons of mentors, workshops, and other fellow attendees to help you out!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2> How many people can I take in a team? </h2>
+                        <p>Max of 4 people, please.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2> How much does it cost? </h2>
+                        <p>Nothing! Food, drinks, and $w@g provided.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2>I don't have a team. Can I still come?</h2>
+                        <p>Absolutely! You will get the chance to make one on Friday night.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="btn-info btn-dark2">
+                        <h2>Ok, I'm almost convinced. </h2>
+                        <p>Come make amazing memories + friends, network with awesome companies, and develop awesome projects to showcase your skillz.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
 
@@ -358,39 +422,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Meet the "A" Team</h3>      
-                       <ul class="photo-grid">
-                          <li>
-                                <figure>
-                                  <span class="caption">Andrea</span>
-                                  <img class="image" src="img/andrea.png" width="150" height="150" />
-                                  <figcaption><h2>Big Bang Theory disciple. I tried playing 7 different sports in middle school.</h2></figcaption>
-                                  <span class="caption">Computer Science '18</span>
-                                </figure>
-                          </li>
-
-                          <li>
-                                <figure>
-                                  <span class="caption">Anvita</span>
-                                  <img class="image" src="img/anvita.png" width="150" height="150" />
-                                  <figcaption><h2>Will code for cookies. Unless they're oatmeal raisin.</h2></figcaption>
-                                  <span class="caption">Computer Science & Behavioral Econ '18</span>
-                                </figure>
-                          </li>
-
-                          <li>
-                                <figure>
-                                  <span class="caption">Amelia</span>
-                                  <img class="image" src="img/amelia.png" width="150" height="150" />
-                                  <figcaption><h2>Ardent feminist and lover of snacks. Will forever want a dog but don't want the commitment.</h2></figcaption>
-                                  <span class="caption">Computer Science & Gender Studies '17</span>
-                                </figure>
-                          </li>
-                        
-                        </ul>
-
-                
+                    <h3>Meet the "A" Team</h3> 
                 </div>
+            </div>     
+            <div class = "row">
+                <ul class="photo-grid">
+                    <li>
+                    <div class="col-lg-3 col-sm-3">
+                        <figure>
+                          <span class="caption">Andrea</span>
+                          <img class="image" src="img/andrea.png" width="150" height="150" />
+                          <figcaption><h2>Big Bang Theory disciple. I tried playing 7 different sports in middle school.</h2></figcaption>
+                          <span class="caption">Computer Science '18</span>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="col-lg-3 col-sm-3">
+                        <figure>
+                          <span class="caption">Anvita</span>
+                          <img class="image" src="img/anvita.png" width="150" height="150" />
+                          <figcaption><h2>Will code for cookies. Unless they're oatmeal raisin.</h2></figcaption>
+                          <span class="caption">Computer Science & Behavioral Econ '18</span>
+                        </figure>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="col-lg-3 col-sm-3">
+                        <figure>
+                          <span class="caption">Amelia</span>
+                          <img class="image" src="img/amelia.png" width="150" height="150" />
+                          <figcaption><h2>Ardent feminist and lover of snacks. Will forever want a dog but don't want the commitment.</h2></figcaption>
+                          <span class="caption">Computer Science & Gender Studies '17</span>
+                        </figure>
+                    </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </aside>
