@@ -152,6 +152,10 @@ hr.small {
     color: #24248f;
 }
 
+.navbar-brand {
+    font-family: 'Cookie', cursive;
+}
+
 /* Header */
 
 .header {
@@ -427,7 +431,7 @@ footer {
 }
 
 .fa-instagram{
-    color: #331a00;
+    color: #4d2700;
 }
 
 .fa-twitter{
