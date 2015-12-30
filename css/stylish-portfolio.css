@@ -146,8 +146,13 @@ hr.small {
     color: #24248f;
 }
 
+@font-face {
+    font-family: 'Ikaros';
+    src: url(../fonts/Ikaros.ttf);
+}
+
 .navbar-brand {
-    font-family: 'Cookie', cursive;
+    font-family: 'Ikaros', sans;
 }
 
 /* Header */
