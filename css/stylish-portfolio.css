@@ -29,17 +29,11 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-.text-vertical-center h1 {
-    margin-top: -100px;
-    padding: 0;
-    font-size: 8em;
-    font-weight: 700;
-    color: #FA8072;
-    text-shadow: 4px 4px #24248f;
-    font-weight: bold;
-    font-family: 'Cookie', cursive;
+.text-vertical-center img {
+    max-height: 35%;
 }
 
 @media only screen and (max-width: 568px) {
@@ -152,8 +146,13 @@ hr.small {
     color: #24248f;
 }
 
+@font-face {
+    font-family: 'Ikaros';
+    src: url(../fonts/Ikaros.ttf);
+}
+
 .navbar-brand {
-    font-family: 'Cookie', cursive;
+    font-family: 'Ikaros', sans;
 }
 
 /* Header */
