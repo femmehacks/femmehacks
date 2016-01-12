@@ -357,10 +357,11 @@ hr.small {
 }
 
 /*.photo-grid li:hover img {
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    transform: scale(1.4);
-}*/
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+*/
 
 .photo-grid figcaption h2 {
     display: table-cell;
