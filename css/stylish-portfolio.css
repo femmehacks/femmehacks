@@ -215,28 +215,16 @@ hr.small {
 .sponsors{
     padding-top: 7%;
     padding-bottom: 7%;
-    margin-bottom: 100px;
-    /*width: 200px;
-    height: 200px;
-    */
+    margin-bottom: 20px;
 }
 
-table.sponsor-images {
-    padding-right: 10%;
-    padding-left: 10%;
+.sponsor-images table tr,td {
+    padding-right: 5%;
+    padding-left: 5%;
     padding-bottom: 1%;
 }
 
-/*.sponsors img{
-    width: 100px;
-    height: 100px;
-}
 
-/*.sponsor-images img{
-    width: 100px;
-    height: 100px;
-}
-*/
 
 
 
