@@ -73,6 +73,11 @@ body {
     font-size: 2em;
     font-family: 'Cookie', cursive;
     color: #FFFFFF;
+    transition: all .35s ease-in-out;
+}
+
+.register a:hover {
+    transform: scale(1.5);
 }
 
 /* Custom Button Styles */
