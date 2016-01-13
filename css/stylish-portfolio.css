@@ -232,11 +232,12 @@ hr.small {
 }
 
 .sponsors img {
+    transform: scale(.8);
     transition: all .35s ease-in-out;
 }
 
 .sponsors img:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .sponsors .kilo img {
