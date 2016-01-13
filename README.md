@@ -19,7 +19,4 @@ To Do:
 
 	[All] as we get sponsors, add logo to sponsors tab (see gotechnica.org)
 	
-	[Andrea] "buttons below" --> Register
-	 
-	
 

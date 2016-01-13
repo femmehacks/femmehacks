@@ -223,6 +223,30 @@ hr.small {
     margin-bottom: 20px;
 }
 
+.sponsors img {
+    transition: all .35s ease-in-out;
+}
+
+.sponsors img:hover {
+    transform: scale(1.3);
+}
+
+.sponsors .kilo img {
+    transform: scale(.8);
+}
+
+.sponsors .kilo img:hover {
+    transform: scale(.9);
+}
+
+.sponsors .other img {
+    transform: scale(.6);
+}
+
+.sponsors .other img:hover {
+    transform: scale(.65);
+}
+
 .sponsor-images table tr,td {
     padding-right: 5%;
     padding-left: 5%;
