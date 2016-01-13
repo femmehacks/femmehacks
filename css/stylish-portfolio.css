@@ -17,6 +17,7 @@
 html,
 body {
     width: 100%;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -37,9 +38,17 @@ body {
 }
 
 @media only screen and (max-width: 568px) {
+    
+
     .header {
         max-height: 400px;
+        width: 100%;
     }
+
+    .header img  {
+        padding-top: 20%;
+    }
+
     .text-vertical-center h1 {
         font-size: 3em;
         margin-top: 15%;
@@ -137,7 +146,8 @@ hr.small {
 
 .navbar {
     background-color: rgba(250, 128, 114, 1);
-    width: 100%;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
     padding-right: 3%;
 }
 
@@ -474,4 +484,11 @@ footer {
 
 .fa-twitter{
     color:#4099FF;
+}
+
+.contact li:hover{
+    transition: all .35s ease-in-out;
+}
+.contact li:hover{
+    transform: scale(1.2);
 }
