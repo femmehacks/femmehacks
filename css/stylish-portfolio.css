@@ -17,7 +17,6 @@
 html,
 body {
     width: 100%;
-    overflow-x: hidden;
     height: 100%;
 }
 
@@ -146,9 +145,8 @@ hr.small {
 
 .navbar {
     background-color: rgba(250, 128, 114, 1);
-    max-width: 100% !important;
-    overflow-x: hidden !important;
     padding-right: 3%;
+    max-width: 100%;
 }
 
 .navbar ul li a {
