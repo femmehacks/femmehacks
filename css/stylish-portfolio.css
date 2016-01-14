@@ -244,20 +244,36 @@ hr.small {
     transform: scale(1.1);
 }
 
-.sponsors .kilo img {
+.sponsors .terra img {
     transform: scale(.8);
 }
 
-.sponsors .kilo img:hover {
-    transform: scale(.9);
+.sponsors .terra img:hover {
+    transform: scale(.95);
 }
 
-.sponsors .other img {
+.sponsors .giga img {
     transform: scale(.6);
 }
 
+.sponsors .giga img:hover {
+    transform: scale(.75);
+}
+
+.sponsors .kilo img {
+    transform: scale(.5);
+}
+
+.sponsors .kilo img:hover {
+    transform: scale(.6);
+}
+
+.sponsors .other img {
+    transform: scale(.4);
+}
+
 .sponsors .other img:hover {
-    transform: scale(.65);
+    transform: scale(.45);
 }
 
 .sponsor-images table tr,td {
@@ -403,13 +419,6 @@ hr.small {
     transition: all 300ms;
     max-width: 100%;
 }
-
-/*.photo-grid li:hover img {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    transform: scale(0.5);
-}
-*/
 
 .photo-grid figcaption h2 {
     display: table-cell;
