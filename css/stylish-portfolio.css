@@ -182,6 +182,10 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header p {
+    color: white;
+}
+
 /* About */
 
 .about {
