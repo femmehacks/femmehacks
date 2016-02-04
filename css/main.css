@@ -93,6 +93,12 @@ body {
 }
 
 /* Custom Button Styles */
+.btn-transparent {
+    padding-bottom: 15px;
+    color: #000000;
+    opacity: 1.0;
+    background-color: rgba(0,0,0,0);
+}
 
 .btn-dark {
     border-radius: 15px;
