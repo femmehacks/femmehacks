@@ -88,13 +88,30 @@
                         <a href="packet.pdf" class="btn btn-dark btn-lg resources" target="_blank">Hacker Information Packet</a>
                     </div>
                     <div class="col-lg-4">
+                        <a href="schedule.pdf" class="btn btn-dark btn-lg resources" target="_blank">Schedule</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="beginner.pdf" class="btn btn-dark btn-lg resources" target="_blank">Help Me, I'm Stuck</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="stay-involved.pdf" class="btn btn-dark btn-lg resources" target="_blank">FemmeHacks is Over :( Now What?</a>
+                    </div>
+                    <div class="col-lg-4">
                         <a href="github.pdf" class="btn btn-dark btn-lg resources" target="_blank">GitHub Cheat Sheet</a>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12">
-                        <a class="btn btn-dark btn-lg resources" target="_blank">Why Have An All-Women* Event?</a>
+                    <div class="col-lg-12 allWomen">
+                        <a class="btn btn-dark btn-lg resources" target="_blank" data-toggle="collapse" data-target="#allWomenCollapse" aria-expanded="false" aria-controls="allWomenCollapse">Why Have An All-Women* Event?</a>
+                            
+                        <div class="collapse" id="allWomenCollapse">
+                            <div class="well">
+                                <p>Women are hugely underrepresented in tech--whether in academia, research, industry, or leadership roles. FemmeHacks strives to bring women together to create a platform for peer support, community-building, exploration, and mentorship. We want to have fun together, building products that are for us and by us. Together we are stronger than ever, and allowing for a welcoming space where exploration is encouraged will allow for huge strides in the building of a supportive community. And then when we're all the CEOs of every damn company out there, we'll laugh and reminisce at our time spent at FemmeHacks :)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,6 +175,10 @@
             }
         });
     });
+
+    $('.allWomen > ul').click(function() {
+        $(this).parent().find('ul').toggle();
+    });​
     </script>
 
 </body>

@@ -519,6 +519,15 @@ hr.small {
     width: 100%;
 }
 
+#allWomenCollapse > .well {
+    background-color:rgba(0, 0, 0, 0.7); 
+    color: #FA8072;
+}
+
+#allWomenCollapse > .well p {
+    color: #FA8072;
+}
+
 
 /* Footer */
 
