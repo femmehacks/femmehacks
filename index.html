@@ -21,6 +21,10 @@
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Gallery -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />   
+
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -29,6 +33,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+
 
 
 </head>
@@ -53,7 +58,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#about">about</a>
+                    <a href="#about">2016 summary</a>
                 </li>
                 <li>
                     <a href="#schedule">schedule</a>
@@ -82,7 +87,7 @@
             <h3>An all-women<a href="#diversity">*</a> collegiate hackathon in Philadelphia</h3>
             <br>
             <div class = "register">
-                <a href="#schedule" class="btn btn-dark btn-lg" target="_blank">Schedule</a>
+                <a href="#about" class="btn btn-dark btn-lg" target="_blank">2016 Summary</a>
             </div>
             <br>
             <div class="container">
@@ -95,8 +100,48 @@
         </div>
     </header>
 
-    <!-- About -->
+    <!-- Recap -->
     <section id="about" class="about">
+        <div class="container">
+            <div class = "space"> </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Thanks for making FemmeHacks 2016 so rad.</h2>
+                    <p class="lead">Can't wait to see you next year!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h3>Read bout us in da press</h3>
+                    <a href="http://www.thedp.com/article/2016/02/all-female-hackathon"><p class="lead"><i> The Daily Pennsylvanian</i> (Penn's newspaper)</p></a>
+                    <a href="http://www.upenn.edu/pennnews/current/2016-02-25/latest-news/women-power-and-code-penn%E2%80%99s-femmehacks-competition"><p class="lead"><i>Penn Current</i> (Penn's newsletter)<p></a>
+                    <a href="https://prezi.com/5dl1plg5jcr8/femmehacks-2016-wrap-up/?utm_campaign=share&utm_medium=copy"><p class="lead">A wrap up Prezi we made with some stats</p></a>
+                    <p class="lead"><i> And sum pix: </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" >
+                    <div class="wow bounceInUp" data-wow-delay="0.4s">
+                    <div id="owl-works" class="owl-carousel">
+                        <div class="item"><a href="img/gallery/1.jpg" target="_blank"><img src="img/gallery/1.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/2.jpg" target="_blank"><img src="img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/4.jpg" target="_blank"><img src="img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/5.jpg" target="_blank"><img src="img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/6.jpg" target="_blank"><img src="img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/7.jpg" target="_blank"><img src="img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/8.jpg" target="_blank"><img src="img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/11.jpg" target="_blank"><img src="img/gallery/11.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="img/gallery/12.jpg" target="_blank"><img src="img/gallery/12.jpg" class="img-responsive " alt="img"></a></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- About -->
+    <!-- <section id="about" class="about">
         <div class="container">
             <div class = "space"> </div>
             <div class="row">
@@ -110,11 +155,11 @@
 
                     <p> Unforunately, registration is now closed. But we'll see you next year at FemmeHacks '17!</p>
                 </div>
-            </div>
+            </div> -->
             <!-- /.row -->
-        </div>
+        <!-- </div> -->
         <!-- /.container -->
-    </section>
+   <!--  </section> -->
 
     <!-- Schedule -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -876,6 +921,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Gallery JavaScript -->
+    <script src="js/owl.carousel.min.js"></script>
+
+
     <!-- Custom Theme JavaScript -->
     <script>
 
@@ -895,6 +944,17 @@
             }
         });
     });
+
+    //owl carousel
+    $('#owl-works').owlCarousel({
+            items : 4,
+            itemsDesktop : [1199,5],
+            itemsDesktopSmall : [980,5],
+            itemsTablet: [768,5],
+            itemsTabletSmall: [550,2],
+            itemsMobile : [480,2],
+        });
+
     </script>
 
 </body>

@@ -103,6 +103,18 @@ body {
     border-radius: 5px;
 }
 
+/*GALLERY*/
+
+.item {
+    margin: 10px;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}   
+
 /* Custom Button Styles */
 .btn-transparent {
     padding-bottom: 15px;
