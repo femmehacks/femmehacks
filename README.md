@@ -14,9 +14,5 @@ then you want to push it to main, remote directory:
 	git push
 
 merge conflict, type: :wq 
-
-To Do: 
-
-	[All] as we get sponsors, add logo to sponsors tab (see gotechnica.org)
 	
 
